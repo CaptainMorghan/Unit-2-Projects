@@ -1,0 +1,19 @@
+﻿<Window x:Class="unite_2_problem_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:unite_2_problem_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtInput" />
+        <Button x:Name="btnClickForTime" Click="btnClickForTime_Click" Content="Click For Local Time" />
+        <Label x:Name="PacificTime" Content=""/>
+        <Label x:Name="MountainTime" Content=""/>
+        <Label x:Name="CentralTime" Content=""/>
+        <Label x:Name="EasternTime" Content=""/>
+        <Label x:Name="AtlanticTime" Content=""/>
+        <Label x:Name="NewfyTime" Content=""/>
+    </StackPanel>
+</Window>
